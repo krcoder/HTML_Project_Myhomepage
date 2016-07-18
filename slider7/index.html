@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8" />
+        <title>BookBlock: A Content Flip Plugin</title>
+        <link rel="stylesheet" type="text/css" href="demo.css" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="stylesheet" type="text/css" href="custom.css" />
+		<script type="text/javascript" src="modernizr.custom.79639.js"></script> 
+		<noscript><link rel="stylesheet" type="text/css" href="noJS.css" /></noscript>
+		
+    </head>
+    <body>
+        <div class="container">
+			<section class="main">
+ 
+				<div class="bb-custom-wrapper">
+					<div id="bb-bookblock" class="bb-bookblock">
+						<div class="bb-item">
+							<img src="c.jpg" alt="image01"/>
+						</div>
+						<div class="bb-item">
+							<img src="./image/i1.png" alt="image02"/>
+						</div>
+						<div class="bb-item">
+							<img src="c.jpg" alt="image03"/>
+						</div>
+						<div class="bb-item">
+							<img src="d.jpg" alt="image04"/>
+						</div>
+						<div class="bb-item">
+							<img src="e.jpg" alt="image05"/>
+						</div>
+					</div>
+					<h3>강민규</h3>
+					<nav>
+						<a id="bb-nav-prev" href="#">Previous</a>
+						<a id="bb-nav-next" href="#">Next</a>
+						<a id="bb-nav-jump" href="#" title="Go to last item">Last page</a>
+					</nav>
+				</div>
+				
+			</section>
+			
+        </div>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+		<script type="text/javascript" src="jquerypp.custom.js"></script>
+        <script type="text/javascript" src="jquery.bookblock.js"></script>
+		<script type="text/javascript">
+			$(function() {
+ 
+				var Page = (function() {
+ 
+					var config		= {
+							$bookBlock			: $( '#bb-bookblock' ),
+							$navNext			: $( '#bb-nav-next' ),
+							$navPrev			: $( '#bb-nav-prev' ),
+							$navJump			: $( '#bb-nav-jump' ),
+							bb 					: $( '#bb-bookblock' ).bookblock( {
+								speed 		: 800,
+								shadowSides	: 0.8,
+								shadowFlip	: 0.7
+							} )
+						},
+						init		= function() {
+ 
+							initEvents();
+							
+						},
+						initEvents	= function() {
+ 
+							var $slides		= config.$bookBlock.children(),
+								totalSlides = $slides.length;
+ 
+							// add navigation events
+							config.$navNext.on( 'click', function() {
+ 
+								config.bb.next();
+								return false;
+ 
+							} );
+ 
+							config.$navPrev.on( 'click', function() {
+								
+								config.bb.prev();
+								return false;
+ 
+							} );
+ 
+							config.$navJump.on( 'click', function() {
+								
+								config.bb.jump( totalSlides );
+								return false;
+ 
+							} );
+							
+							// add swipe events
+							$slides.on( {
+ 
+								'swipeleft' : function( event ) {
+								
+									config.bb.next();
+									return false;
+ 
+								},
+								'swiperight' : function( event ) {
+								
+									config.bb.prev();
+									return false;
+									
+								}
+ 
+							} );
+ 
+						};
+ 
+						return { init : init };
+ 
+				})();
+ 
+				Page.init();
+ 
+			});
+		</script>
+    </body>
+</html>

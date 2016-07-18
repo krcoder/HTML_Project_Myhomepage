@@ -1,0 +1,213 @@
+#round {
+    width : 150px;
+    height : 150px;
+    background: url(./squre.jpg) no-repeat center;
+}
+
+
+#round:hover{
+    animation: 2s roun;
+    animation-iteration-count: infinite;
+    background: url('./squre.jpg') no-repeat center;
+}
+
+@keyframes roun{
+    0% {transform: rotate(18deg);}
+    5% {transform: rotate(36deg);}
+    10% {transform: rotate(54deg);}
+    15% {transform: rotate(72deg);}
+    20% {transform: rotate(90deg);}
+    25% {transform: rotate(90deg);}
+    30% {transform: rotate(108deg);}
+    35% {transform: rotate(126deg);}
+    40% {transform: rotate(144deg);}
+    45% {transform: rotate(162deg);}
+    50% {transform: rotate(180deg);}
+    55% {transform: rotate(198deg);}
+    60% {transform: rotate(216deg);}
+    65% {transform: rotate(234deg);}
+    70% {transform: rotate(252deg);}
+    75% {transform: rotate(270deg);}
+    80% {transform: rotate(288deg);}
+    85% {transform: rotate(306deg);}
+    90% {transform: rotate(324deg);}
+    95% {transform: rotate(342deg);}
+    100% {transform: rotate(360deg);}
+}
+
+
+
+
+#Red_Yellow {
+    width: 150px;   /* 배너의 가로 사이즈 설정 */
+    height: 150px;  /* 배너의 세로 사이즈 설정 */
+    background: url('./Red.png') no-repeat center;
+    }
+#Red_Yellow:hover {
+    background: url('./yellow.png') no-repeat center; 
+    }
+
+
+
+
+#size {
+    width : 150;
+    height : 150;
+    background: url('./size.png') no-repeat center;
+    }
+
+#size:hover{
+    animation: 1s hov;
+    animation-iteration-count: infinite;
+    background: url('size.png') no-repeat center;
+    }
+@keyframes hov{
+    0% {transform: scale(1.1,1.1);}
+    10% {transform: scale(1.2,1.2);}
+    20% {transform: scale(1.3,1.3);}
+    30% {transform: scale(1.4,1.4);}
+    40% {transform: scale(1.5,1.5);}
+    50% {transform: scale(1.6,1.6);}
+    60% {transform: scale(1.7,1.7);}
+    70% {transform: scale(1.8,1.8);}
+    80% {transform: scale(1.9,1.9);}
+    90% {transform: scale(2,2);}
+    100% {transform: scale(2,2);}
+}
+
+
+#move{
+    animation: 2s rig;
+    animation-iteration-count: infinite;
+    background: url('move.png') no-repeat center;
+    top : 800px; left: 0px;
+    height: 50px; width: 50px;
+    position: absolute;
+    z-index: 200;
+    width: 130;
+    height: 130;
+
+}
+@keyframes rig{
+    0% {left:50px;}
+    5% {left:70px;}
+    10% {left:90px;}
+    15% {left:110px;}
+    20% {left:130px;}
+    25% {left:150px;}
+    30% {left:170px;}
+    35% {left:190px;}
+    40% {left:210px;}
+    45% {left:230px;}
+    50% {left:250px;}
+    55% {left:250px;}
+    60% {left:230px;}
+    65% {left:210px;}
+    70% {left:210px;}
+    75% {left:190px;}
+    80% {left:170px;}
+    85% {left:150px;}
+    90% {left:130px;}
+    95% {left:110px;}
+    98% {left:90px;}
+    100% {left:70px;}
+}
+
+
+#move2{
+    animation: 2s updown;
+    animation-iteration-count: infinite;
+    background: url('move2.png') no-repeat center;
+    top : 800px; left: 0px;
+    height: 50px; width: 50px;
+    position: absolute;
+    z-index: 200;
+    width: 130;
+    height: 130;
+
+}
+@keyframes updown{
+    0% {top:850px;}
+    5% {top:870px;}
+    10% {top:890px;}
+    15% {top:910px;}
+    20% {top:930px;}
+    25% {top:950px;}
+    30% {top:970px;}
+    35% {top:990px;}
+    40% {top:1010px;}
+    45% {top:1030px;}
+    50% {top:1050px;}
+    55% {top:1050px;}
+    60% {top:1030px;}
+    65% {top:1010px;}
+    70% {top:990px;}
+    75% {top:970px;}
+    80% {top:950px;}
+    85% {top:930px;}
+    90% {top:910px;}
+    95% {top:890px;}
+    98% {top:870px;}
+    100% {top:850px;}
+}
+
+
+#top{ font-size: 15px;
+    position: relative;
+    margin-bottom: -10px;
+    left:10px;
+}
+#middle{
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 15px;
+}
+#middle #large{
+    font-size: 50px;    
+}
+#middle #normal{
+    position: relative;
+    font-size: 30px;
+    bottom: 5px;
+    font-family: "times new roman";    
+}
+#middle #small{
+    font-size: 15px;
+}
+#bottom{
+    position: relative;
+    font-size: 15px;
+    margin-top: -25px;
+    left: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

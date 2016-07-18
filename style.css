@@ -1,0 +1,299 @@
+@charset "utf-8";
+/*
+@font-face {
+    font-family: 'BebasRegular';
+    src: url('font/BEBAS___-webfont.eot');
+    src: url('font/BEBAS___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/BEBAS___-webfont.woff') format('woff'),
+         url('font/BEBAS___-webfont.ttf') format('truetype'),
+         url('font/BEBAS___-webfont.svg#BebasRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+*/
+
+html,body{
+ font-family: 'BebasRegular';
+	width:100%;
+	height:100%;
+}
+
+#iframe1 {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+.navigation{
+	position:fixed;
+	z-index:1;
+	top:0px;
+    padding-top: 50px;
+}
+.navigation li{
+	color:#DDDDDD;
+	display:block;
+	padding: 0 10px;
+	line-height:30px;
+	margin-bottom:2px;
+	font-weight:bold;
+	-webkit-transition: all .2s ease-in-out;
+	border-bottom:1px solid black;
+	text-align:left;
+	width:60px;
+}
+.navigation li:hover,.active{
+	font-size:25px;
+	cursor:pointer;
+	width:100px!important;
+}
+
+#main3, #main2 { 
+    margin-left: 30px;
+}
+
+.envatologo{
+position:fixed;
+top:50%;
+left:50%;
+width:446px;
+margin-top:-41px;
+margin-left:-223px;
+z-index:1;
+}
+.slide{
+	background-attachment: fixed;
+	width:100%;
+	height:100%;
+	position: relative;
+	box-shadow:inset 0px 10px 10px rgba(0,0,0,0.3);
+}
+.wrapper{
+	width:960px;
+	height:200px;
+	margin:0 auto;
+	position:relative;
+}
+.slideno{
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	font-size:100px;
+	font-weight:bold;
+	color:rgba(80,80,80,0.6);
+}
+.button{
+	display:block;
+	width:50px;
+	height:50px;
+	position:absolute;
+	bottom:0px;
+	left:50%;
+	background-color:#333333;
+	background-image:url(arrow.png);
+}
+.button:hover{
+	background-color:#494949;
+	cursor:pointer;
+}
+
+/******************************
+ SLIDE 1 
+*******************************/
+#slide1{
+	background-color:#202020;
+    background-image:url("./images/bb%20(4).jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/******************************
+ SLIDE 2 
+*******************************/
+#slide2{
+	background-color:#202020;
+    background-image:url("./images/bb3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    
+	
+}
+#slide2 img:first-child{
+	position: absolute;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    width:auto;
+    height: 100%;
+    
+}
+#slide2 img:nth-child(2){
+	position: absolute;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    width:auto;
+    height: 100%;
+}
+
+/******************************
+ SLIDE 3 
+*******************************/
+#slide3{
+	background-color:#202020;
+    background-image:url("./images/bb%20(4).jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    
+}
+
+/******************************
+ SLIDE 4 
+*******************************/
+
+#slide4{
+	background-color:#202020;
+    background-image:url("./images/intro3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+#slide4 .parallaxbg{
+	position:absolute;
+	right:40px;
+	top:40px;
+	font-size:28px;
+	color:rgba(51,51,51,0.3);
+}
+
+
+h3{
+    font-size: 22px;
+}
+
+/******************************
+ SLIDE 5 
+*******************************/
+
+#slide5{
+	background-color:#202020;
+    background-image:url("./images/intro.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+#slide5 .parallaxbg{
+	position:absolute;
+	right:40px;
+	top:40px;
+	font-size:28px;
+	color:rgba(51,51,51,0.3);
+}
+
+
+h3{
+    font-size: 22px;
+}
+
+#lee{
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+
+
+#topMenu {
+        height: 30px;  /* 메인 메뉴의 높이 */
+        width: 900px;  /* 메인 메뉴의 넓이 */
+}
+#topMenu ul {           /* 메인 메뉴 안의 ul을 설정함: 상위메뉴의 ul+하위 메뉴의 ul */
+    list-style-type: none;  /* 메인 메뉴 안의 ul 내부의 목록 표시를 없애줌 */
+    margin: 0px;            /* 메인 메뉴 안의 ul의 margin을 없앰 */
+    padding: 0px;           /* 메인 메뉴 안의 ul의 padding을 없앰 */
+}
+#topMenu ul li {            /* 메인 메뉴 안에 ul 태그 안에 있는 li 태그의 스타일 적용(상위/하위메뉴 모두) */
+    color: white;               /* 글씨 색을 흰색으로 설정 */
+    background-color: #2d2d2d;  /* 배경 색을 RGB(2D2D2D)로 설정 */
+    float: left;                /* 왼쪽으로 나열되도록 설정 */
+    line-height: 30px;          /* 텍스트 한 줄의 높이를 30px로 설정 */
+    vertical-align: middle;     /* 세로 정렬을 가운데로 설정 */
+    text-align: center;         /* 텍스트를 가운데로 정렬 */
+    position: relative;         /* 해당 li 태그 내부의 top/left 포지션 초기화 */
+}
+.menuLink, .submenuLink {           /* 상위 메뉴와 하위 메뉴의 a 태그에 공통으로 설정할 스타일 */
+    text-decoration:none;               /* a 태그의 꾸밈 효과 제거 */
+    display: block;                     /* a 태그의 클릭 범위를 넓힘 */
+    width: 150px;                       /* 기본 넓이를 150px로 설정 */
+    font-size: 12px;                    /* 폰트 사이즈를 12px로 설정 */
+    font-weight: bold;                  /* 폰트를 굵게 설정 */
+    font-family: "Trebuchet MS", Dotum; /* 기본 폰트를 영어/한글 순서대로 설정 */
+}
+.menuLink {     /* 상위 메뉴의 글씨색을 흰색으로 설정 */
+    color: white;
+}
+.topMenuLi:hover .menuLink {    /* 상위 메뉴의 li에 마우스오버 되었을 때 스타일 설정 */
+    color: red;                 /* 글씨 색 빨간색 */
+    background-color: #4d4d4d;  /* 배경색을 밝은 회색으로 설정 */
+}
+.submenuLink {          /* 하위 메뉴의 a 태그 스타일 설정 */
+    color: #2d2d2d;             /* 글씨 색을 RGB(2D2D2D)로 설정 */
+    background-color: white;    /* 배경색을 흰색으로 설정 */
+    border: solid 1px black;    /* 테두리를 설정 */
+    margin-top: -1px;           /* 위 칸의 하단 테두리와 아래칸의 상단 테두리가 겹쳐지도록 설덩 */
+}
+.longLink {     /* 좀 더 긴 메뉴 스타일 설정 */
+    width: 190px;   /* 넓이는 190px로 설정 */
+}
+.submenu {              /* 하위 메뉴 스타일 설정 */
+    position: absolute;     /* html의 flow에 영향을 미치지 않게 absolute 설정 */
+    height: 0px;            /* 초기 높이는 0px로 설정 */
+    overflow: hidden;       /* 실 내용이 높이보다 커지면 해당 내용 감춤 */
+    transition: height .2s; /* height를 변화 시켰을 때 0.2초간 변화 되도록 설정(기본) */
+    -webkit-transition: height .2s; /* height를 변화 시켰을 때 0.2초간 변화 되도록 설정(구버전 크롬/사파라ㅣ) */
+    -moz-transition: height .2s; /* height를 변화 시켰을 때 0.2초간 변화 되도록 설정(구버전 파폭) */
+    -o-transition: height .2s; /* height를 변화 시켰을 때 0.2초간 변화 되도록 설정(구버전 오페라) */
+}
+.topMenuLi:hover .submenu { /* 상위 메뉴에 마우스 모버한 경우 그 안의 하위 메뉴 스타일 설정 */
+    height: 93px;           /* 높이를 93px로 설정 */
+}
+.submenuLink:hover {        /* 하위 메뉴의 a 태그의 마우스 오버 스타일 설정 */
+    color: red;                 /* 글씨색을 빨간색으로 설정 */
+    background-color: #dddddd;  /* 배경을 RGB(DDDDDD)로 설정 */
+}
+
+
+
+
+
+#rightBanner {
+        width: 250px;   /* 배너의 가로 사이즈 설정 */
+        height: 167px;  /* 배너의 세로 사이즈 설정 */
+        background: url('./images/cloth1.JPG') no-repeat center;  /* 배너의 기본 이미지를 백그라운드로 설정 */ 
+    }
+    #rightBanner:hover {
+        background: url('./images/cloth2.JPG') no-repeat center;  /* 배너의 마우스오버 이미지를 백그라운드로 설정 */
+    }
+
+
+
+.imgHolder{
+    display:inline-block;
+    background:#000;
+}
+.item-fade{
+    vertical-align:top;
+    opacity: 1;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+.hover:hover{
+    opacity:0.2;
+}

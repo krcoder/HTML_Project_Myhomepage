@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+body{
+     height: 100%;
+     background-color: #F3E9F3
+}
+            
+label {
+    display: inline-block;
+    width: 120px;
+}
+            
+input {
+    display: inline-block;
+    width: 160px;
+}
+
+input:focus{
+    background=color: burlywood;
+}
+
+input:hover{
+    background-color: burlywood;
+}
+input:active{
+    background-color: black;

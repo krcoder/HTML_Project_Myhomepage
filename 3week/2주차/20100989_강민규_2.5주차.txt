@@ -1,0 +1,184 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <title>Schedule</title>
+
+    </head>
+    
+    <body>
+ <h1 align = "center">2016년도 1학기 시간표</h1>
+ <h5 align = "right">학번 : 20100989   성명 : 강민규</h5> 
+<br>
+ <h5 align = "left"> 디지털 영상처리 및 실습 , 21482-01 , 박대철</h5>
+ <h5 align = "left"> 주거와 문화 , 17819-03 , 장영환 </h5>
+ <h5 align = "left"> 데이터구조 , 22910-03 , 윤영선 </h5>
+ <h5 align = "left"> 웹 기반 소프트웨어 설계 , 19759-01 , 윤영선</h5>
+ <h5 align = "left"> 진화와 과확의 창조이론 , 17221-01 , 이종용 </h5>
+ <h5 align = "left"> 나만의 디지털 이미지 편집 비법 , 17034-01 , 윤장혁 </h5>
+
+ <table border = "1" align = "center">
+<tr>
+  <td width ="150" align = "center">교시</td>
+  <td width ="150" align = "center">월</td>
+  <td width ="150" align = "center">화</td>
+  <td width ="150" align = "center">수</td>
+  <td width ="150" align = "center">목</td>
+  <td width ="150" align = "center">금</td>
+  <td width ="150" align = "center">교시</td>
+     </tr>
+<tr>
+  <td width ="150" align = "center" rowspan = "2">0교시<br>08:00 ~ 08:50</td>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center" rowspan = "2">&nbsp</td>
+     </tr>
+<tr>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center">&nbsp</td>
+     </tr>
+<tr>
+  <td width ="150" align = "center" rowspan = "2">1교시<br>09:00 ~ 09:50</td>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center" rowspan = "3" bgcolor="gray">디지털 영상처리<br>및 실습<br>(060520-0)<br>박대철</td>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center" rowspan = "3">A교시<br>09:00 ~ 10:15</td>
+     </tr>
+<tr>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center">&nbsp</td>
+     </tr>
+<tr>
+  <td width ="150" align = "center" rowspan = "2">2교시<br>10:00 ~ 10:50</td>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center">&nbsp</td>
+     </tr>
+<tr>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center" rowspan = "3" bgcolor="gray">진화와 과학의<br>창조이론<br>(060131-0)<br>이종용</td>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center" rowspan = "3">B교시<br>10:30 ~ 11:45</td>
+     </tr>
+<tr>
+  <td width ="150" align = "center" rowspan = "2">3교시<br>11:00 ~ 11:50</td>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center" rowspan = "2" bgcolor="yellow">데이터 구조<br>(090327-0)<br>윤영선</td>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center" rowspan = "4" bgcolor="yellow">나만의 디지털<br>이미지 편집 비법<br>(070216-0)<br>윤장혁</td>
+     </tr>
+<tr>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center">&nbsp</td>
+     </tr>
+<tr>
+  <td width ="150" align = "center" rowspan = "2">4교시<br>12:00 ~ 12:50</td>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center" rowspan = "3">C교시<br>12:00 ~ 13:15</td>
+     </tr>
+<tr>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center">&nbsp</td>
+     </tr>
+<tr>
+  <td width ="150" align = "center" rowspan = "2">5교시<br>13:00 ~ 13:50</td>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center">&nbsp</td>
+     </tr>
+<tr>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center" rowspan = "3">D교시<br>13:30 ~ 14:45</td>
+     </tr>
+<tr>
+  <td width ="150" align = "center" rowspan = "2">6교시<br>14:00 ~ 14:50</td>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center" rowspan ="8" bgcolor="yellow">데이터 구조(실)<br>(090414-0)<br>윤영선</td>
+     </tr>
+<tr>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center">&nbsp</td>
+     </tr>
+<tr>
+  <td width ="150" align = "center" rowspan ="2">7교시<br>15:00 ~ 15:50</td>
+  <td width ="150" align = "center" rowspan ="3" bgcolor="gray">디지털 영상처리<br>및 실습<br>(060520-0)<br>박대철</td>
+  <td width ="150" align = "center" rowspan ="4" bgcolor="yellow">웹 기반<br>소프트웨어 설계<br>(090424-0)<br>윤영선</td>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center" rowspan ="4" bgcolor="yellow">웹 기반<br>소프트웨어 설계<br>(090410-0)<br>윤영선</td> 
+  <td width ="150" align = "center" rowspan ="3"> E교시<br>15:00 ~ 16:15</td>
+     </tr>
+<tr>
+  <td width ="150" align = "center">&nbsp</td>
+     </tr>
+<tr>
+  <td width ="150" align = "center" rowspan = "2">8교시<br>16:00 ~ 16:50</td>
+  <td width ="150" align = "center">&nbsp</td>
+</tr>
+<tr>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center" rowspan="3">F교시<br>16:30~18:00</td>
+</tr>
+
+<tr>
+  <td width ="150" align = "center" rowspan="2">9교시<br>17:00~17:50</td>
+  <td width ="150" align = "center" rowspan="4" bgcolor="yellow">주거와 문화<br>(090517-0)<br>정영환</td>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center">&nbsp</td>
+     </tr>
+
+<tr>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center">&nbsp</td>
+</tr>
+
+<tr>
+  <td width ="150" align = "center" rowspan="2">10교시<br>18:00~18:50</td>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center" rowspan="2">G교시<br>18:30~20:00</td>
+</tr>
+
+<tr>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center">&nbsp</td>
+  <td width ="150" align = "center">&nbsp</td>
+</tr>
+
+ </table>
+    </body>
+</html>
